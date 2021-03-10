@@ -1,0 +1,208 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E2DADB; 
+    color :#2B3A67;
+    opacity: .9;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;    
+    color: #E2DADB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DC944D;
+    z-index: 10;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.links {
+    margin: 10px;
+    color: #FBFBFC;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-image: url("orchestra.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    justify-content: space-evenly;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .9;
+    color: #2B3A67;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 380px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 190px;
+}
+
+
+.main-content{
+    display: block;
+}
+
+.mission {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    top: 60px;
+}
+
+.mission h2 {
+    max-width: 800px;
+    padding-top: 40px;
+}
+
+.about-us {
+    background-image: url("setnor-aud.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 150px;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.about-us h2 {
+    max-width: 350px;
+    padding: 20px;
+    background-color: #DC944D;
+    opacity: .8;
+}
+
+.about-us p {
+    max-width: 350px;
+    max-height: 350px;
+    padding: 20px;
+    min-width: 100px;
+    background-color: #DC944D;
+    opacity: .8;
+}
+
+.our-staff {
+    top: 225px;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.our-staff h2{
+    margin-top: 150px;
+}
+
+.box {
+    padding: 10px;
+}
+
+.box img {
+    width: 180px;
+    height: 200px;
+}
+
+.box h3 {
+    line-height: 2.4;
+}
+
+.box p {
+    max-width: 200px;
+    line-height: 1.4;
+}
+
+footer {
+    position: relative;
+    top: 400px;
+    background-color: #DC944D;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B7B8BC;
+}
+
+
+
+
+/* set 1: orchestra and intro */
+  
+  /* set 5: curved perfection */
+  
+
+  /*
+  @media (min-width: 1150px) {
+    #app {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .grid {
+  
+    }
+    */
