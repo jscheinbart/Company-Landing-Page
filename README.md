@@ -61,8 +61,9 @@ List of features ready and TODOs for future development
 * Uses Semantic HTML for accessibility purposes
 
 To-do list:
-* Re-work fonts to include fonts from Google API
-* Add media queries to CSS file to properly style page for mobile and tablet devices
+* Re-work fonts to include fonts from Google API - DONE: Added additional fonts to improve styling
+* Add media queries to CSS file to properly style page for mobile and tablet devices - DONE: Added Media Queries
+* Adjusted Coloring on webpage to facilitate ease of use
 
 ## Status
 Project is: _in progress_
